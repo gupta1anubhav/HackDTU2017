@@ -1,0 +1,81 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+     <TextView
+         android:id="@+id/tv1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="dawd"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="dawd"
+        android:layout_marginBottom="80dp"
+        />
+   <LinearLayout
+       android:layout_marginBottom="50dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+ <ImageView
+     android:id="@+id/ivAtm"
+     android:src="@drawable/ic_local_atm_black_24dp"
+     android:layout_width="0dp"
+    android:layout_weight="1"
+     android:layout_height="80dp" />
+       <ImageView
+           android:id="@+id/ivShop"
+           android:src="@drawable/ic_local_atm_black_24dp"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="80dp" />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_local_atm_black_24dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp" />
+        <ImageView
+            android:src="@drawable/ic_local_atm_black_24dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_local_atm_black_24dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp" />
+        <ImageView
+            android:src="@drawable/ic_local_atm_black_24dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

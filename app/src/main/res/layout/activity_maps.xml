@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true" >
+<FrameLayout
+
+    android:background ="#69F0AE"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="450dp"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+
+            android:backgroundTint="#00B0FF"
+            android:layout_weight="1"
+
+            android:id="@+id/btnRestaurant"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text="Nearby Restaurants" />
+
+        <Button
+
+            android:backgroundTint="#00B0FF"
+            android:layout_weight="1"
+
+            android:id="@+id/btnHospital"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text="Nearby Hospitals" />
+
+        <Button
+
+            android:backgroundTint="#00B0FF"
+            android:layout_weight="1"
+
+            android:id="@+id/btnAccounting"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text="Nearby Schools" />
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="510dp"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+
+            android:backgroundTint="#00B0FF"
+            android:layout_weight="1"
+
+            android:id="@+id/btnAtm"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text=" Nearby  Atm's" />
+
+        <Button
+            android:backgroundTint="#00B0FF"
+
+            android:layout_weight="1"
+
+            android:id="@+id/btnBank"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text="Nearby Banks" />
+
+        <Button
+
+            android:backgroundTint="#00B0FF"
+            android:layout_weight="1"
+
+            android:id="@+id/btnAirport"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text="Nearby Airports" />
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="570dp"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+
+            android:backgroundTint="#00B0FF"
+            android:layout_weight="1"
+
+            android:id="@+id/btnEmbassy"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text=" Nearby  Embassy" />
+
+        <Button
+            android:backgroundTint="#00B0FF"
+
+            android:layout_weight="1"
+
+            android:id="@+id/btnBook"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text="Nearby BookStore" />
+
+        <Button
+
+            android:backgroundTint="#00B0FF"
+            android:layout_weight="1"
+
+            android:id="@+id/btnCar"
+
+            android:layout_width="0dp"
+
+            android:layout_height="60dp"
+
+            android:text="Nearby CarRepair" />
+
+
+    </LinearLayout>
+    <fragment
+        android:id="@+id/map1"
+
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="450dp"
+
+        ></fragment>
+</FrameLayout>
+</ScrollView>

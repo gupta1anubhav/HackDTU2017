@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Destinations" />
+        <item
+            android:id="@+id/nav_travel"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Travel" />
+
+        <item
+            android:id="@+id/nav_plantrip"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Plan Trip" />
+
+
+            <item
+                android:id="@+id/nav_emergency"
+                android:icon="@drawable/ic_announcement_black_24dp"
+                android:title="Emergency Contacts" />
+
+
+    </group>
+</menu>
