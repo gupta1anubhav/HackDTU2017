@@ -1,2 +1,3 @@
 # HackDTU2017
-  Complete travel app for India travel having all the necessary features. 
+  Travel app which provides solution for every possible problem a traveller might face.
+
